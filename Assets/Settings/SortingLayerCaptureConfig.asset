@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f340d432daea42d5a8082633c8a44f2e, type: 3}
+  m_Name: SortingLayerCaptureConfig
+  m_EditorClassIdentifier:
+  entries:
+  - sortingLayerRange:
+      m_LowerBound: 1
+      m_UpperBound: 1
+    targetTexture: {fileID: 8400001, guid: 25817616934b4c96b30e8b9dab45f6e9, type: 2}
+    blitMaterialOverride: {fileID: 0}
+    materialSlotNote: Backdrop FX RawImage samples this texture via Outline material _MainTex.
+  - sortingLayerRange:
+      m_LowerBound: 2
+      m_UpperBound: 2
+    targetTexture: {fileID: 8400002, guid: 9a2ac525f9c041e992a3ab26e8a14212, type: 2}
+    blitMaterialOverride: {fileID: 0}
+    materialSlotNote: Character rim-light material expects this capture on its secondary sampler.
+  - sortingLayerRange:
+      m_LowerBound: 3
+      m_UpperBound: 3
+    targetTexture: {fileID: 8400003, guid: 7de0979a9b8644dcb77e8d0ad31d5a67, type: 2}
+    blitMaterialOverride: {fileID: 0}
+    materialSlotNote: Overlay VFX use this texture for additive glows in UI previews.
