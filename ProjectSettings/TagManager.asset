@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: OutlineBackdrop
+    uniqueID: 1432156789
+    locked: 0
+  - name: OutlineSubject
+    uniqueID: 1975312468
+    locked: 0
+  - name: OutlineUI
+    uniqueID: 987654321
+    locked: 0
   - name: SpriteLayerB
     uniqueID: 1043112041
     locked: 0
