@@ -44,3 +44,9 @@ TagManager:
   - name: SpriteLayerB
     uniqueID: 1043112041
     locked: 0
+  - name: Capture_Characters
+    uniqueID: 780969508
+    locked: 0
+  - name: Capture_Props
+    uniqueID: 39300963
+    locked: 0
