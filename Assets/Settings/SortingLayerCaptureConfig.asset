@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc87d6617bb4c2f8766a63130bbd782, type: 3}
+  m_Name: SortingLayerCaptureConfig
+  m_EditorClassIdentifier:
+  _effects:
+  - _layerRange:
+      m_LayerMin: 2
+      m_LayerMax: 2
+    _targetTexture: {fileID: 8400000, guid: 3fa99b299bd0d864b9060002bd937456, type: 2}
+    _materialSlotNotes: Outline RawImage material slot
+  - _layerRange:
+      m_LayerMin: 3
+      m_LayerMax: 3
+    _targetTexture: {fileID: 8400000, guid: 689957fc69bf4cbb911ee598f2791394, type: 2}
+    _materialSlotNotes: Glow RawImage material slot
