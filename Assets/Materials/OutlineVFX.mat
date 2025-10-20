@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline
+  m_Name: OutlineVFX
   m_Shader: {fileID: -6465566751694194690, guid: 6d0d6ef289f7dd4479baf030739fe661, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineSubgraph_5fd72106e61c46a4a307fb73d9a160b6_MainTex_1743898135:
-        m_Texture: {fileID: 8400000, guid: 5f114a939d034964b4f3f7fe65dbf24e, type: 2}
+        m_Texture: {fileID: 8400000, guid: 8bbae69e8b9b442cbd32a9aef8e67a9d, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,10 +55,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _Intensity: 1
-    - _OutlineSize: 5.1
+    - _Intensity: 0.8
+    - _OutlineSize: 4.5
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.92941177, g: 1, b: 0.93333334, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

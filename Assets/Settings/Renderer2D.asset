@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
-  m_RendererFeatures: []
-  m_RendererFeatureMap: 
+  m_RendererFeatures:
+  - {fileID: 11400000, guid: f37cdc1fa520406b80633b2d4d85c853, type: 2} # Feature executes late so capture textures see post-transparent layers.
+  m_RendererFeatureMap:
+  - {fileID: 11400000, guid: f37cdc1fa520406b80633b2d4d85c853, type: 2}
   m_UseNativeRenderPass: 0
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 1, z: 0}
@@ -35,7 +37,7 @@ MonoBehaviour:
     maskTextureChannel: 1
     blendMode: 0
   m_UseDepthStencilBuffer: 1
-  m_UseCameraSortingLayersTexture: 0
+  m_UseCameraSortingLayersTexture: 1
   m_CameraSortingLayersTextureBound: -1
   m_CameraSortingLayerDownsamplingMethod: 0
   m_MaxLightRenderTextureCount: 16

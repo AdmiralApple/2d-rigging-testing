@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e996ffc87854da9903fb187332ea71c, type: 3}
+  m_Name: SortingLayerCaptureConfig
+  m_EditorClassIdentifier:
+  effects:
+  - sortingLayerRange:
+      m_LowerBound: 2
+      m_UpperBound: 2
+    targetTexture: {fileID: 8400000, guid: 5f114a939d034964b4f3f7fe65dbf24e, type: 2}
+    materialNotes: Characters outline RawImage
+  - sortingLayerRange:
+      m_LowerBound: 3
+      m_UpperBound: 3
+    targetTexture: {fileID: 8400000, guid: 8bbae69e8b9b442cbd32a9aef8e67a9d, type: 2}
+    materialNotes: VFX distortion panel
